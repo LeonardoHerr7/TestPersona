@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\TestPersona\\Core\\Core.csproj": {}
+    "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\Ejercicio_Leo\\TestPersona\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\TestPersona\\Core\\Core.csproj": {
+    "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\Ejercicio_Leo\\TestPersona\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\TestPersona\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\Ejercicio_Leo\\TestPersona\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\TestPersona\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\Ejercicio_Leo\\TestPersona\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\IT-Seekers\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\TestPersona\\Core\\obj\\",
+        "outputPath": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\Ejercicio_Leo\\TestPersona\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

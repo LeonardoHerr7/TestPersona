@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RQ8GCYCtpzQwyPSjTDDnpAELv5XbJpGmKDQkewh2Hik6ClVvo4+Qh0nA75GGpGiUZ5zWs65nUqbMcJSwRSQMww==",
+  "dgSpecHash": "4Gwu5ukCIorkN6NlnRiOF3Wk7a54IlFYeXCoohkc3PetR7u+idqEMBFqqU+ky6M8i7dY63svSHq5Fa0RjOVIKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\TestPersona\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\Ejercicio_Leo\\TestPersona\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IT-Seekers\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\IT-Seekers\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

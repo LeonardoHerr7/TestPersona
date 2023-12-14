@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TestPersona.Entidades;
 namespace TestPersona.Controllers
 {
@@ -32,5 +33,19 @@ namespace TestPersona.Controllers
             return View("Index");
         }
 
+        public IActionResult BorrarPersona(int id)
+        {
+            var registro = context.Persona.Find(id);
+            if(registro == null)
+            {
+                return View("index");
+            }
+
+            context.Persona.Remove(registro);
+            context.SaveChanges();
+            ViewBag.Mensaje = "Persona agregada correctamente";
+
+            return View("Index");
+        }
     }
 }

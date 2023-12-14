@@ -8,7 +8,7 @@
     <h1>FORMULARIO PRRON</h1>
     <h5>Adolfo no me repruebes hice lo mejor que pude con el poco tiempo que tuve jsjsjs</h5>
 
-    @model Persona
+    @*@model Persona*@
 
     @using (Html.BeginForm("AgregarPersona", "Home", FormMethod.Post))
     {
@@ -31,4 +31,48 @@
     {
         <p>@ViewBag.Mensaje</p>
     }
+
+    <h1>Borrar uwu</h1>
+
+
+    @using (Html.BeginForm("BorrarPersona", "Home",FormMethod.Post))
+    {
+        <!-- Campos del formulario -->
+        <label for="nombre">ID a Borrar:</label>
+        <input type="number" id="idPersona" name="idPersona" required />
+
+        <!-- Otros campos o controles -->
+
+        <input type="submit" value="Borrar" />
+    }
+
+    <h1>Consultar</h1>
+    @model List<Persona>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido Paterno</th>
+                <th>Apellido Materno</th>
+                <!-- Otros campos -->
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var persona in Model)
+            {
+                <tr>
+                    <td>@persona.Nombre</td>
+                    <td>@persona.ApellidoPaterno</td>
+                    <td>@persona.ApellidoMaterno</td>
+                    <!-- Otros campos -->
+                    <td>
+                        @Html.ActionLink("Editar", "Editar", new { id = persona.Id }) |
+                        @Html.ActionLink("Eliminar", "ConfirmarEliminar", new { id = persona.Id })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>

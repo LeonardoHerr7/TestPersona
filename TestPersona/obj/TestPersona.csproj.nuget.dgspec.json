@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\TestPersona\\TestPersona\\TestPersona.csproj": {}
+    "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\Ejercicio_Leo\\TestPersona\\TestPersona\\TestPersona.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\TestPersona\\TestPersona\\TestPersona.csproj": {
+    "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\Ejercicio_Leo\\TestPersona\\TestPersona\\TestPersona.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\TestPersona\\TestPersona\\TestPersona.csproj",
+        "projectUniqueName": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\Ejercicio_Leo\\TestPersona\\TestPersona\\TestPersona.csproj",
         "projectName": "TestPersona",
-        "projectPath": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\TestPersona\\TestPersona\\TestPersona.csproj",
+        "projectPath": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\Ejercicio_Leo\\TestPersona\\TestPersona\\TestPersona.csproj",
         "packagesPath": "C:\\Users\\IT-Seekers\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\TestPersona\\TestPersona\\obj\\",
+        "outputPath": "C:\\Users\\IT-Seekers\\Documents\\Cursos\\C# .Net\\Pruebas\\Ejercicio_Leo\\TestPersona\\TestPersona\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,6 +64,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
