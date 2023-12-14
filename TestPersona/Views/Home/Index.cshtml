@@ -1,0 +1,34 @@
+﻿@using TestPersona.Entidades;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <h1>FORMULARIO PRRON</h1>
+    <h5>Adolfo no me repruebes hice lo mejor que pude con el poco tiempo que tuve jsjsjs</h5>
+
+    @model Persona
+
+    @using (Html.BeginForm("AgregarPersona", "Home", FormMethod.Post))
+    {
+        <!-- Campos del formulario -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required/>
+
+        <label for="apellidoPaterno">Apellido Paterno:</label>
+        <input type="text" id="apellidoPaterno" name="apellidoPaterno" required/>
+
+        <label for="apellidoMaterno">Apellido Materno:</label>
+        <input type="text" id="apellidoMaterno" name="apellidoMaterno" required/>
+
+        <!-- Otros campos o controles -->
+
+        <input type="submit" value="Enviar" />
+    }
+
+    @if (!string.IsNullOrEmpty(ViewBag.Mensaje))
+    {
+        <p>@ViewBag.Mensaje</p>
+    }
+</div>
